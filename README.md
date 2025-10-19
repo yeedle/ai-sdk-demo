@@ -17,19 +17,21 @@ A TypeScript Express API that provides Jewish calendar information and date conv
    npm install
    ```
 
-2. Create a `.env` file with your Google AI API key:
+2. Get a Google AI API key from [Google AI Studio](https://aistudio.google.com/api-keys)
+
+3. Create a `.env` file with your Google AI API key:
 
    ```
    GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
    ```
 
-3. Build the TypeScript:
+4. Build the TypeScript:
 
    ```bash
    npm run build
    ```
 
-4. Start the server:
+5. Start the server:
 
    ```bash
    npm start
